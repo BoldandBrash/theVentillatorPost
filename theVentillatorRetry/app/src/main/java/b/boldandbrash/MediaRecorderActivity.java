@@ -2,6 +2,7 @@ package b.boldandbrash;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.net.Uri;
@@ -28,6 +29,8 @@ public class MediaRecorderActivity extends Activity {
     // 撥放器
     MediaPlayer MP = null;
 
+    Button submitRec;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +50,21 @@ public class MediaRecorderActivity extends Activity {
         // 設定監聽
         recordBt.setOnClickListener(clickLT);
         playBt.setOnClickListener(clickLT);
+
+        submitRec = (Button) findViewById(R.id.redRecordSubmit);
+        submitRec.setOnClickListener(new SubmitListener());
+    }
+
+    private class SubmitListener implements View.OnClickListener {
+        @Override
+        public void onClick(View v) {
+            //初始化Intent物件
+            Intent intent = new Intent();
+            //從MainActivity 到Main2Activity
+            intent.setClass(MediaRecorderActivity.this , QuestionsActivity.class); // new activity to start
+            //開啟Activity
+            startActivity(intent);
+        }
     }
 
     // 監聽方法
@@ -114,5 +132,4 @@ public class MediaRecorderActivity extends Activity {
         Toast.makeText(this, "Pause", Toast.LENGTH_LONG).show();
         super.onPause();
     }
-
 }

@@ -9,13 +9,14 @@
     <string name="redOption1_record">Start Recording</string>
     <string name="redOption1_stop">Stop Recording</string>
     <string name="redOption1_play">Play Recording</string>
+    <string name="redOption1_submit">Submit Recording</string>
 
     <string name="redOption2_title">Write Down What You Want to Say!</string>
-    <string name="redOption2_submit">Submit</string>
+    <string name="redOption2_submit">Submit Text</string>
 
     <string name="blueOption_title">Cool-Down Questions:</string>
     <string name="blueOption_submit">Answer Question</string>
-    <string name="blueOption_placeholder">Don\'t Show Me!</string>
+    <string name="blueOption_placeholder">Thank you for choosing Bold and Brash!</string>
     <string-array name="blueOption_coping_questions">
         <item>What are you angry/stressed about?</item>
         <item>What led up to this problem?</item>

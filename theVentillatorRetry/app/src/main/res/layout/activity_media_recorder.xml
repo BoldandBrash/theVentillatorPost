@@ -13,7 +13,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/toggleButton"
-        android:layout_marginStart="41dp"
         android:textOn="@string/redOption1_stop"
         android:textOff="@string/redOption1_record"
         android:textColor="@color/foreground"
@@ -21,9 +20,9 @@
         android:textStyle="bold|italic"
         android:padding="20dp"
         android:background="@color/buttonColor"
-        android:layout_marginBottom="41dp"
-        android:layout_above="@+id/Button2"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Button2"
+        android:layout_marginTop="68dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,8 +34,20 @@
         android:textSize="36sp"
         android:textStyle="bold|italic"
         android:padding="20dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginBottom="131dp"
-        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/redRecordSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:background="@color/buttonColor"
+        android:padding="20dp"
+        android:text="@string/redOption1_submit"
+        android:textColor="@color/foreground"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
