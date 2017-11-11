@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aggressiveBkg">#933</color>
+    <color name="passiveBkg">#55A</color>
+    <color name="neutralBkg">#484</color>
+    <color name="foreground">#FFF</color>
+    <color name="buttonColor">#711</color>
+    <color name="coolButtonColor">#119</color>
+</resources>
