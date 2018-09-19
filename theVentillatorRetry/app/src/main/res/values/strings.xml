@@ -25,6 +25,10 @@
         <item>How can reacting negatively affect those around you?</item>
         <item>What steps can you take to prevent problems in the future?</item>
     </string-array>
-    <string name="title_activity_text">TextActivity</string>
+
+    <string name="rateTitle">Let Us Know How We\'re Doing!</string>
+    <string name="rateNumLabel">On a scale between 1 and 10, how do you enjoy this app (10 is the best score)</string>
+    <string name="rateCommLabel">Any suggestions or comments?</string>
+    <string name="rateSubmit">Rate The Ventillator</string>
 
 </resources>

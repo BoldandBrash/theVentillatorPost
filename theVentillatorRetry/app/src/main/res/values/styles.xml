@@ -8,6 +8,10 @@
         <item name="android:colorBackground">@color/passiveBkg</item>
     </style>
 
+    <style name="NeutralTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/neutralBkg</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
